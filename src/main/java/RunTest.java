@@ -10,7 +10,7 @@ public class RunTest {
 
     public void main(){
         open("https://demoqa.com/automation-practice-form");
-        // тест коммент
+        // тест коммент 2
     }
 
     @Before
