@@ -2,10 +2,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import static com.codeborne.selenide.Selenide.open;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
 public class RunTest {
+
+    public void main(){
+        open("https://demoqa.com/automation-practice-form");
+    }
+
     @Before
     public void beforeClass(){
         System.out.println("Before class");
